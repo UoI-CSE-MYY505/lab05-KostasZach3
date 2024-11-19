@@ -15,7 +15,7 @@ storage:
 # ----------------------------------------------------------------------------------------
 #  la breaks into 2 instructions, which have a data dependence. Ignore this 
     la   a0, storage
-    addi s0, zero, 0
+    addi s0, zero, 1
     addi s1, zero, 1
     addi s2, zero, 2
     addi s3, zero, 3
